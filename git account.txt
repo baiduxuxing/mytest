@@ -1,0 +1,30 @@
+git account
+username:baiduxuxing
+password:invalidpassword123
+mail:baiduxuxing@gamil.com
+
+
+
+Organization name:baiduxuxingtest
+Billing email:baiduxuxing@gmail.com
+
+
+
+
+
+
+git@github.com:baiduxuxing/mytest.git
+
+
+git remote add origin git@github.com:baiduxuxing/mytest.git
+git push -u origin master
+ 
+
+
+
+
+//render key
+ssh-keygen -t rsa
+
+复制 public key (windows.pub中的一串数字) 到你账户的 https://github.com/settings/keys, 再重新push.
+ssh -v git@github.com:baiduxuxing/mytest.git
